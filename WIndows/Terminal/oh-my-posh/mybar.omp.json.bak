@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        { "type": "path", "style": "plain", "powerline_symbol": "\uE0B0" }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        { "type": "user", "style": "plain" },
+        { "type": "time", "format": "HH:mm:ss tt", "style": "plain" }
+      ]
+    }
+  ]
+}
