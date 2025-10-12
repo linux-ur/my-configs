@@ -8,7 +8,7 @@
 
 ## 🗂 Repository Structure
 
-- `Windows/` - My Configs for Windows 11 (work in Windows 10)
+- `Windows/` - My Configs for Windows 11 (work on Windows 10)
 - `Games/` - My Games :)
 
 ---
