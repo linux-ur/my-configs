@@ -1,0 +1,107 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "iterm",
+    "source": "C:\\Users\\user\\Pictures\\logo.png",
+    "width": 20,
+    "height": 10,
+    "padding": {
+      "right": 10,
+      "top": 4
+    }
+  },
+  "general": {
+    "thread": true
+  },
+  "display": {
+    "separator": "➜   "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "format": "                                {6}{7}{8}"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────────────────────────────────────────┐" // `\u001b` is `\033`, or `\e`
+    },
+    "break",
+    {
+      "key": "     OS           ",
+      "keyColor": "blue",
+      "type": "os"
+    },
+    {
+      "key": "     Kernel       ",
+      "keyColor": "blue",
+      "type": "kernel"
+    },
+    {
+      "key": "    󰅐 Uptime       ",
+      "keyColor": "blue",
+      "type": "uptime"
+    },
+    {
+      "key": "     Packages     ",
+      "keyColor": "blue",
+      "type": "packages"
+    },
+    {
+      "key": "     WM           ",
+      "keyColor": "blue",
+      "type": "wm"
+    },
+    {
+      "key": "     Shell        ",
+      "keyColor": "blue",
+      "type": "shell"
+    },
+    {
+      "key": "     Terminal     ",
+      "keyColor": "blue",
+      "type": "terminal"
+    },
+    {
+      "key": "     Font         ",
+      "keyColor": "blue",
+      "type": "terminalfont"
+    },
+    {
+      "key": "    󰻠 CPU          ",
+      "keyColor": "blue",
+      "type": "cpu"
+    },
+    {
+      "key": "    󰍛 GPU          ",
+      "keyColor": "blue",
+      "type": "gpu"
+    },
+    {
+      "key": "    󰑭 Memory       ",
+      "keyColor": "blue",
+      "type": "memory"
+    },
+    {
+      "key": "    󰩟 Local IP     ",
+      "keyColor": "blue",
+      "type": "localip",
+      "compact": true
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────────────────────────────────────────┘" // `\u001b` is `\033`, or `\e`
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 34,
+      "symbol": "circle",
+      "block": {
+        "width": 10
+      }
+    }
+  ]
+}
