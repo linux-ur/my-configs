@@ -10,6 +10,7 @@
 
 - `Windows/` - My Configs for Windows 11 (work on Windows 10)
 - `Games/` - My Games :)
+- `Fastfetch/` - My FastFetch Config [PREVIEW](https://raw.githubusercontent.com/linux-ur/my-configs/refs/heads/main/preview/Fastfetch/preview.png)
 
 ---
 
