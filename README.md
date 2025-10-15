@@ -1,4 +1,4 @@
-<h1 align="center" style="color: purple;">💜 My Configs 💜</h1>
+<h1 align="center" style="color: purple;"> My Configs </h1>
 
 <p align="center">
   My configs for All 💜
